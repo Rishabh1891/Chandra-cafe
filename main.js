@@ -157,3 +157,4 @@ const tarikh = new Date().toLocaleDateString();
 document.getElementById('dt').innerHTML = tarikh;
 
 
+
