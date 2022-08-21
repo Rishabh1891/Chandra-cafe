@@ -10,7 +10,9 @@
     <title>Chandra Cafe | LoFi & Coffee</title>
     <link rel="icon" href="Chandra icon.png">
 </head>
-<body>
+<body onload="()=>{
+  document.write('Page loading...');
+}">
   <nav class="navbar">
     <div class="navbar-container container">
         <input type="checkbox" name="" id="">
@@ -31,15 +33,12 @@
 </nav>
     
    <section>
-    <img src="stars.png" id="stars" alt="stars here">
-    <img src="moon.png" id="moon" alt="mooon">
-    <img src="mountains_behind.png" id="mountains_behind" alt="backmount">
+    <img src="https://i.ibb.co/ThP5PJr/stars.png" id="stars" alt="stars here">
+    <img src="https://i.ibb.co/yP1YN5Y/moon.png" id="moon" alt="mooon">
+    <img src="https://i.ibb.co/2j0Nrrk/mountains-behind.png" id="mountains_behind" alt="backmount">
     <h2 id="text">Chandra Cafe</h2>
-    <img src="mountains_front.png" id="mountains_front" alt="mount front">
+    <img src="https://i.ibb.co/4YxRRyx/mountains-front.png" id="mountains_front" alt="mount front">
    </section>
-
-
-
 
 
 <!--cards-->
@@ -218,8 +217,8 @@
 </div>
   
  <!--table content-->
- <div class="tbl">
-  <h2 class="th2">Best Coffee For <span id="loc">- - -</span>'s People</h2>
+ <div class="tbl>
+  <h2 class="th2">Best Coffee For <span id="loc">- - -</span>'s People.</h2>
    <table class="rwd-table">
      <tr>
     <th>Coffee</th>
@@ -231,25 +230,25 @@
     <td>Cappuccino</td>
     <td>₹149 - ₹209</td>
     <td>Hot</td>
-    <td style="color: rgb(0, 170, 0); font-weight: bold;">Available</td>
+    <td id="avl" style="color: rgb(0, 170, 0); font-weight: bold;">Available</td>
   </tr>
   <tr>
     <td>Dalgona</td>
     <td>₹241 - ₹399</td>
     <td>Hot</td>
-    <td style="color: rgb(0, 170, 0); font-weight: bold;">Available</td>
+    <td id="avl" style="color: rgb(0, 170, 0); font-weight: bold;">Available</td>
   </tr>
   <tr>
     <td>Americano</td>
     <td>₹499 - ₹999</td>
     <td>Hot</td>
-    <td style="color: rgb(216, 0, 0); font-weight: bold;">Out of Stock</td>
+    <td id="avl" style="color: rgb(216, 0, 0); font-weight: bold;">Out of Stock</td>
   </tr>
   <tr>
     <td>Gulabbo</td>
     <td>₹169 - ₹759</td>
     <td>Cold</td>
-    <td style="color: rgb(0, 170, 0); font-weight: bold;">Available</td>
+    <td id="avl" style="color: rgb(0, 170, 0); font-weight: bold;">Available</td>
   </tr>
 </table>
 </div>
@@ -335,7 +334,9 @@
     </div>
   </div>
 </div>
-</body>
+
+
+
 
   <footer id="smprk">
       <div class="main-stuffs">
@@ -400,7 +401,7 @@
         </center>
       </div>
     </footer>
-
+</body>
 
 <script src="main.js" defer></script>
 </html>

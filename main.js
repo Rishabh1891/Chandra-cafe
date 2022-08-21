@@ -26,6 +26,14 @@ window.onscroll = () => {
         navbar.classList.remove('nav-active');
     }
 };
+//online offline
+
+if(navigator.onLine){
+  console.log("Data connection found");
+ } else if(!navigator.onLine) {
+  document.write("<center><b>Abey... Net to chalu kar</b></center>");
+}
+
 
 //Quote writer
 var slideIndex = 1;
@@ -147,3 +155,5 @@ if (navigator.geolocation) {
 
 const tarikh = new Date().toLocaleDateString();
 document.getElementById('dt').innerHTML = tarikh;
+
+

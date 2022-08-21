@@ -232,7 +232,7 @@ section::before{
     width: 100%;
     height: 100px;
     background: linear-gradient(to top, #1c0522, transparent);
-    z-index: 1000;
+    z-index: 9;
 
 }
 section img{
@@ -258,6 +258,7 @@ section img#moon{
 section img#mountains_front{
     z-index: 10;
 }
+
 
 
 /*cards*/
@@ -657,6 +658,7 @@ font-size: 5rem;
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .th2{
   color: #fff;
   margin: 1em;
@@ -849,7 +851,8 @@ font-size: 5rem;
 	color: #fff;
 }
 
-
+/*cookies*/
+  
 footer{
   position: relative;
   bottom: 0px;
@@ -1002,3 +1005,4 @@ footer{
     margin: 5px 0;
   }
 }
+
